@@ -1,0 +1,232 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+html,body{
+    font-size: 12px;
+}
+.dengluzhuce-wraper{
+    width: 100%;
+}
+.dengluzhuce-in{
+    width: 867px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 18px;
+    padding: 20px 166.5px 0 166.5px;
+    overflow: hidden;
+
+}
+.dengluzhuce-left{
+    float: left;
+    text-align: center;
+    margin-top: 74px;
+    margin-right: 75px;
+    margin-left: 163px;
+
+}
+.dengluzhuce-logo a:nth-child(1){
+    width: 182px;
+    height: 50px;
+    display: block;
+    background: url(../image/denglu/logo.jpg) no-repeat;
+}
+.dengluzhuce-logo a:nth-child(2){
+    width: 152px;
+    height: 152px;
+    display: block;
+    background: url(../image/denglu/wx.jpg) no-repeat;
+    background-size: 152px 152px;
+    margin: 25px 0 0 15px;
+}
+.dengluzhuce-logo span{
+    display: block;
+}
+.dengluzhuce-right{
+    float: left;
+}
+.right-mid{
+    float: left;
+    width: 42px;
+    height: 487px;
+    background: url(../image/denglu/space.jpg) no-repeat;
+}
+.right-right{
+    float: left;
+    margin-top: 63px;
+    margin-left: 52px;
+}
+.right-denglu{
+    float: left;
+    margin-top: 63px;
+    margin-left: 52px;
+}
+.hide-a{
+     display: none;
+} 
+.right-right h3,.right-denglu h3{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #e80000;
+    margin-left: 8px;
+}
+.zhuce-two .submit{
+    background-color: #e80000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 32px 9px 32px;
+    border: 0;
+    margin-top: 20px;
+}
+.zhuce-two .quzhuce{
+    background-color: #a9a9a9;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 32px 11px 32px;
+    border: 0;
+    margin: 20px 0 0 10px;
+}
+.wang-password{
+    overflow: hidden;
+    margin-top:30px;
+    padding: 0 30px 20px 30px;
+    border-bottom:1px dashed #ddd; 
+}
+.wang-password a{
+    color: #e0e0df;
+}
+.wang-password a:nth-child(1){
+    float: left;
+}
+.wang-password a:nth-child(2){
+    float: right;
+}
+.text-phone{
+    width: 260px;
+    height: 30px;
+    border: 2px solid #e0e0e0;
+    margin-top: 20px;
+}
+.text-phone input{
+    width: 250px;
+    height: 25px;
+    border: 0px;
+    outline: none;
+    margin-top: 3px;
+}
+.duanxin{
+    margin-top: 20px;
+}
+.duanxin div{
+    width: 130px;
+    height: 30px;
+    border: 2px solid #e0e0e0;
+    float: left;
+}
+.duanxin div input{
+    width: 100px;
+    height: 25px;
+    border: 0px;
+    outline: none;
+    margin-top: 3px;
+}
+.duanxin span{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 7px;
+    width: 130px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    background-color: #e80000;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.text-pass-one{
+    width: 260px;
+    height: 30px;
+    border: 2px solid #e0e0e0;
+    margin-top: 20px;
+}
+.text-pass-one input{
+    width: 250px;
+    height: 25px;
+    border: 0px;
+    outline: none;
+    margin-top: 3px;
+}
+.text-pass-one span{
+    display: block;
+}
+.text-pass-two{
+    width: 260px;
+    height: 30px;
+    border: 2px solid #e0e0e0;
+    margin-top: 30px;
+}
+
+.text-pass-two input{
+    width: 250px;
+    height: 25px;
+    border: 0px;
+    outline: none;
+    margin-top: 3px;
+}
+.confirm-xieyi{
+    margin: 15px;
+}
+.confirm-xieyi span a{
+    color:#e80000;
+}
+.zhuce-one button{
+    width: 263px;
+    height: 40px;
+    background-color: #e80000;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    line-height: 38px;
+}
+.zhuce-one>a{
+    width: 260px;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom:1px dashed #ddd; 
+}
+.bottom-fenxiang{
+    padding-top: 10px;
+    width: 260px;
+    text-align: center;
+}
+.bottom-fenxiang ul{
+    margin-left: 70px;
+}
+.bottom-fenxiang ul li{
+    width: 30px;
+    height: 31px;
+    float: left;
+}
+.bottom-fenxiang ul li:nth-child(1){
+    background: url(../image/shangpin/黑色/renren.png) no-repeat;
+}
+.bottom-fenxiang ul li:nth-child(2){
+    background: url(../image/shangpin/黑色/weibo.png) no-repeat;
+}
+.bottom-fenxiang ul li:nth-child(3){
+    background: url(../image/shangpin/黑色/xinlang.png) no-repeat;
+}
+.bottom-fenxiang ul li:nth-child(4){
+    background: url(../image/shangpin/黑色/zone.png) no-repeat;
+}
+.success{
+    font-size: 12px;
+}
+.error{
+    font-size: 12px;
+}

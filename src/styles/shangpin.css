@@ -1,0 +1,448 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+body,html{
+    font-size: 12px;
+}
+.nav-top-wrapper-o{
+    width:100%;
+    height: 105px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd;
+    overflow: hidden;
+}
+.nav-top-mid{
+    width: 1200px;
+    height: 105px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.logo div{
+    width: 77px;
+    height: 66px;
+    margin: auto;
+    background:url(../image/shangpin/黑色/logo.png) no-repeat;
+    background-size: 77px 66px;
+}
+.nav-top-mid ul li {
+    float: left;
+    height: 105px;
+    line-height: 105px;
+    margin: 0 10px;
+}
+.nav-top-mid ul li a{
+    font-size: 16px;
+    color: #000;
+}
+.form-shangpin{
+    float: right;
+    /* line-height: 105px; */
+    margin-top: 30px;
+}
+.form-shangpin input{
+    float: left;
+    height: 30px;
+    width: 233px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #777777;
+}
+.form-shangpin button{
+    float: left;
+    width: 36px;
+    background: #e80000;
+    height: 36px;
+    line-height: 35px;
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 9px;
+    font-size: 16px;
+    border: 0;
+    color: #fff;
+}
+.form-shangpin button img{
+    margin-top:5px; 
+}
+.jindu-wrap{
+    padding: 12px 5px 5px 0px;
+    width: 100%;
+    background-color: #F5F5F5;
+    height:24px ;
+    margin-top: 0px ;
+}
+.jindu{
+    width: 1200px;
+    margin: 0 auto;
+}
+.jindu p{
+    width: 1200px;
+    text-align: left;
+}
+.fangdajing-wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.fangdajing{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.container-magnifier{
+    width: 450px;
+    /* margin: 40px; */
+    position: relative;
+    float: left;
+}
+
+.wrap-small-magnifier{
+    width: 448px;
+    height: 448px;
+    border: 1px solid #ddd;
+}
+.wrap-small-magnifier .patch{
+    width: 448px;
+    height: 448px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.wrap-small-magnifier .focus{
+    width: 290px;
+    height: 235px;
+    background:  #fff;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+
+}
+
+.wrap-small-magnifier img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrap-choice-magnifier {
+    padding-top: 10px;
+}
+.wrap-choice-magnifier i{
+    display: inline-block;
+    /* margin-left: 10px; */
+    border: 1px solid #fff;
+    /* padding:0 1px; */
+}
+.wrap-choice-magnifier img{
+    width: 67px;
+    height: 67px;
+    border: 1px solid #ddd;
+}
+.wrap-choice-magnifier i.active{
+    background: url(../image/shangpin/黑色/bg.png) no-repeat;
+    
+}
+.wrap-choice-magnifier i:hover{
+    background: url(../image/shangpin/黑色/bg.png) no-repeat ;
+}
+.wrap-big-magnifier{
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: -510px;
+    top: 0;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.wrap-big-magnifier img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.details-wrap{
+    float: left;
+    margin-left:40px; 
+    width: 700px;
+
+}
+.details-wrap h1{
+    width: 100%;
+    height: 20px;
+    margin:8px 0 11px 0;
+    font-size: 16px;
+    font-weight:bold; 
+}
+.details-title{
+    width: 405px;
+    padding: 5px;
+    color: #775544;
+}
+.daojishi{
+    background-color: #e84540;
+    width: 100%;
+    height: 39px;
+    font-size: 18px;
+    color: white;
+}
+.daojishi p{
+    float: left;
+    line-height: 39px;
+    /* color: #000; */
+}
+.daojishi p span{
+    background-size: 27px 30px;
+    width: 27px;
+    height: 30px;
+    margin: 4px 0px 0px 14px;
+    background: url(../image/shangpin/黑色/clock.png) no-repeat;
+    float: left;
+    display: block;
+}
+.daojishi h2{
+    float: right;
+    line-height: 39px;
+}
+.daojishi h2 span{
+    /* float: left; */
+    background-color: white;
+    border-radius: 3px;
+    color: #e84540;
+    margin: 0px 5px 0px 5px;
+    font-size: 20px;
+    padding: 1px 3px 1px 3px;
+    line-height: 22px;
+    
+}
+.price-wrap{
+    width: 688px;
+    background-color: #F2F2F2;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+.qianggoujia{
+    padding-top: 20px;
+}
+.qianggoujia span{
+    margin-left: 10px;
+    color: #e80000;
+    font-size: 25px;
+}
+.diaopaijia{
+    margin-top: 14px;
+}
+.diaopaijia del{
+    margin-top: -2px;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #777777;
+}
+.lingjuan{
+    height: 9px;
+    color: #777777;
+    margin-top: 25px;
+}
+.lingjuan span:nth-child(1){
+    float: left;
+}
+.lingjuan span:nth-child(2),.lingjuan span:nth-child(3),.lingjuan span:nth-child(4),.lingjuan span:nth-child(5){
+    float: left;
+    background: url(../image/shangpin/黑色/Cbg.png) no-repeat;
+    width: 95px;
+    height: 25px;
+    margin-left: 13px;
+    margin-top: -3px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+.huodong{
+    clear: both;
+    margin-top: 30px;
+    height: 60px;
+    width: 100%;
+    /* position: relative; */
+}
+.huodong span:nth-child(1){
+    float: left;
+    margin-right: 13px;
+}
+.huodong span:nth-child(2),.huodong span:nth-child(3),.huodong span:nth-child(4){
+    border: 1px solid #e84540;
+    color: #e84540;
+    padding: 0px 5px 1px 5px;
+}
+.zhankai{
+    width: 670px;
+    overflow: hidden;
+    padding: 0 30px 10px 0; 
+}
+.zhankai a{
+    float: right;
+    color: #666;
+}
+.color-xiezi{
+    width: 100%;
+}
+.color-xiezi li{
+    float: left;
+    width: 67px;
+    height: 67px;
+    border: 1px solid #666;
+    margin: 0px 5px 5px 0px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    color: #666; 
+    cursor: pointer;
+    margin-top:15px; 
+}
+.color-xiezi li:nth-child(1){
+    border: 0;
+    font-size: 12px;
+    float: left;
+    color: #777777;
+    margin: 0px 13px 0px 12px;
+    margin-top: 37px;
+}
+.shoe-size{
+    width: 100%;
+    clear: both;
+}
+.shoe-size li{
+    float: left;
+    width: 67px;
+    height: 37px;
+    border: 1px solid #666;
+    margin: 0px 5px 5px 0px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    color: #666; 
+    cursor: pointer; 
+}
+.shoe-size li:nth-child(1){
+    border: 0;
+    font-size: 12px;
+    float: left;
+    color: #777777;
+    margin: 0px 13px 0px 12px;
+    /* margin-top: 17px; */
+}
+.shoe-number{
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.shoe-number li{
+    float: left;
+    width: 67px;
+    height: 37px;
+    border: 1px solid #666;
+    margin: 0px 5px 5px 0px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    color: #666; 
+    cursor: pointer; 
+    margin-top:12px; 
+}
+.shoe-number li:nth-child(1){
+    border: 0;
+    font-size: 12px;
+    float: left;
+    color: #777777;
+    margin: 0px 13px 0px 12px;
+    margin-top: 17px;
+}
+.shoe-number li:nth-child(3),.shoe-number li:nth-child(5){
+    border: 0;
+}
+.shoe-number li:nth-child(5){
+    width: 200px;
+    text-align: left
+}
+.shoe-number li:nth-child(3) input{
+    width: 60px;
+    height: 35px;
+    /* display: inline-block; */
+    font-size: 0px;
+    border: 1px solid #989898;
+    text-align: center;
+    /* display: inline-block; */
+    /* margin: 0 8px 0 8px; */
+}
+.btn-goumai{
+    width: 100%;
+    height: 54px;
+    text-align: center;
+}
+.btn-goumai>span:nth-child(1){
+    width: 216px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 37px;
+    background-color: #D6181A;
+    float: left;
+    color: white;
+    background-position: 0px -60px;
+    cursor: pointer;
+    margin: 8px 0 0 92px;
+}
+.btn-goumai>span:nth-child(1) span{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../image/shangpin/黑色/car.png) no-repeat;
+    background-size: 18px 18px;
+    margin-right:5px;  
+}
+.btn-goumai>span:nth-child(2){
+    width: 216px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 37px;
+    background-color: #666;
+    float: left;
+    color: white;
+    background-position: 0px -60px;
+    cursor: pointer;
+    margin: 8px 0 0 15px;
+}
+.fenxiang-fou{
+    width: 243px;
+    height: 38px;
+    margin-top: 8px;
+}
+.fenxiang-fou li{
+    float: right;
+}
+.fenxiang-fou li a{
+    width: 30px;
+    height: 31px;
+    display: inline-block;
+    margin-left: 2px;
+}
+.fenxiang-fou li:nth-child(1) a{
+    background: url(../image/shangpin/黑色/more.png) no-repeat;
+}
+.fenxiang-fou li:nth-child(2) a{
+    background: url(../image/shangpin/黑色/renren.png) no-repeat;
+}
+.fenxiang-fou li:nth-child(3) a{
+    background: url(../image/shangpin/黑色/weibo.png) no-repeat;
+}
+.fenxiang-fou li:nth-child(4) a{
+    background: url(../image/shangpin/黑色/xinlang.png) no-repeat;
+}
+.fenxiang-fou li:nth-child(5) a{
+    background: url(../image/shangpin/黑色/zone.png) no-repeat;
+}
